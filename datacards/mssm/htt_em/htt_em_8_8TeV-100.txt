@@ -1,0 +1,78 @@
+imax    1     number of categories 
+jmax    5     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_em.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_em.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes bbH * htt_em.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                                                         emu_nobtag     
+observation                                                                 57154          
+------------------------------------------------------------------------------- 
+bin                                                                         emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag     
+process                                                                     -1            0             1             2             3             4              
+process                                                                     ggH           bbH           Ztt           ttbar         EWK           Fakes          
+rate                                                                        77.9671       69.7285       46841.6       2321.65       2376.31       4193.97        
+------------------------------------------------------------------------------- 
+lumi_8TeV lnN                                                               1.042         1.042         -             -             1.042         -              
+CMS_eff_e lnN                                                               1.02          1.02          1.020         1.020         1.020         1.020          
+CMS_scale_e_8TeV shape                                                         1             1          1.000         -             -             -              
+CMS_shift1_emu_nobtag_8TeV_ttbar_fine_binning shape                         -             -             -             1.000         -             -              
+CMS_shift2_emu_nobtag_8TeV_ttbar_fine_binning shape                         -             -             -             1.000         -             -              
+CMS_shift1_emu_nobtag_8TeV_EWK_fine_binning shape                           -             -             -             -             1.000         -              
+CMS_shift2_emu_nobtag_8TeV_EWK_fine_binning shape                           -             -             -             -             1.000         -              
+CMS_shift1_emu_nobtag_8TeV_Fakes_fine_binning shape                         -             -             -             -             -             1.000          
+CMS_shift2_emu_nobtag_8TeV_Fakes_fine_binning shape                         -             -             -             -             -             1.000          
+CMS_eff_m lnN                                                               1.02          1.02          1.020         1.020         1.020         1.020          
+CMS_scale_j_8TeV lnN                                                        1.01          1.01          -             0.990         0.990         -              
+CMS_htt_scale_met_8TeV lnN                                                  0.98          0.98          -             0.990         -             -              
+CMS_eff_b_8TeV lnN                                                          0.98          0.98          -             0.950         0.980         -              
+CMS_fake_b_8TeV lnN                                                         0.98          0.98          -             0.980         0.980         -              
+CMS_htt_zttNorm_8TeV lnN                                                    -             -             1.030         -             -             -              
+CMS_htt_ttbarNorm_8TeV lnN                                                  -             -             -             1.100         -             -              
+CMS_htt_DiBosonNorm_8TeV lnN                                                -             -             -             -             1.150         -              
+CMS_htt_fakes_em_8TeV lnN                                                   -             -             -             -             -             1.300          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_2 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_3 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_4 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_5 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_6 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_7 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_8 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_9 shape                                -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_10 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_11 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_12 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_13 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_14 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_15 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_16 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_17 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_18 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_19 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_Fakes_bin_20 shape                               -             -             -             -             -             1.000          
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_2 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_3 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_4 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_5 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_6 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_7 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_8 shape                                  -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_10 shape                                 -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_12 shape                                 -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_13 shape                                 -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_14 shape                                 -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_2 shape                                -             -             -             1.000         -             -              
+CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_3 shape                                -             -             -             1.000         -             -              
+CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_4 shape                                -             -             -             1.000         -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_1 shape                                  -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_3 shape                                  -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_4 shape                                  -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_24 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_25 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_26 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_27 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_28 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_29 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_30 shape                                 -             -             1.000         -             -             -              
+CMS_htt_em_emu_nobtag_8TeV_Ztt_bin_31 shape                                 -             -             1.000         -             -             -              
