@@ -7,12 +7,12 @@ shapes ggH * htt_mt.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 shapes bbH * htt_mt.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                                         muTau_nobtag     
-observation                                                                 36006            
+observation                                                                 36055            
 ------------------------------------------------------------------------------- 
 bin                                                                         muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag    muTau_nobtag     
 process                                                                     -1              0               1               2               3               4               5               6               7                
 process                                                                     ggH             bbH             ZTT             QCD             W               ZJ              ZL              TT              VV               
-rate                                                                        173.342         152.493         26632.2         4968.22         2909.16         229.903         294.09          83.8695         106.539          
+rate                                                                        176.533         153.011         26423.8         4955.48         2917.71         441.803         294.466         84.5223         106.746          
 ------------------------------------------------------------------------------- 
 lumi_7TeV lnN                                                               1.022           1.022           -               -               -               -               -               -               -                
 CMS_eff_m lnN                                                               1.02            1.02            1.020           -               -               1.020           1.020           1.020           1.020            
@@ -33,6 +33,7 @@ CMS_htt_QCDSyst_mutau_nobtag_7TeV lnN                                       -   
 CMS_htt_QCDShape_mutau_nobtag_7TeV shape                                    -               -               -               1.000           -               -               -               -               -                
 CMS_htt_ZJetFakeTau_mutau_nobtag_7TeV lnN                                   -               -               -               -               -               1.200           -               -               -                
 CMS_htt_ZLeptonFakeTau_mutau_7TeV lnN                                       -               -               -               -               -               -               1.300           -               -                
+CMS_htt_ZLScale_mutau_7TeV shape                                            -               -               -               -               -               -               1.000           -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_TT_bin_2 shape                                 -               -               -               -               -               -               -               1.000           -                
 CMS_htt_mt_muTau_nobtag_7TeV_TT_bin_3 shape                                 -               -               -               -               -               -               -               1.000           -                
 CMS_htt_mt_muTau_nobtag_7TeV_TT_bin_4 shape                                 -               -               -               -               -               -               -               1.000           -                
@@ -73,7 +74,6 @@ CMS_htt_mt_muTau_nobtag_7TeV_QCD_bin_12 shape                               -   
 CMS_htt_mt_muTau_nobtag_7TeV_QCD_bin_13 shape                               -               -               -               1.000           -               -               -               -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_QCD_bin_14 shape                               -               -               -               1.000           -               -               -               -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_QCD_bin_15 shape                               -               -               -               1.000           -               -               -               -               -                
-CMS_htt_mt_muTau_nobtag_7TeV_ZTT_bin_2 shape                                -               -               1.000           -               -               -               -               -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_ZTT_bin_3 shape                                -               -               1.000           -               -               -               -               -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_ZTT_bin_4 shape                                -               -               1.000           -               -               -               -               -               -                
 CMS_htt_mt_muTau_nobtag_7TeV_ZTT_bin_5 shape                                -               -               1.000           -               -               -               -               -               -                

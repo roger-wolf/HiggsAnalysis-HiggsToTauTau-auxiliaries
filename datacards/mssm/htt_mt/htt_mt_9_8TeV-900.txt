@@ -12,7 +12,7 @@ observation                                                              2219
 bin                                                                      muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag     
 process                                                                  -1            0             1             2             3             4             5             6             7              
 process                                                                  ggH           bbH           ZTT           QCD           W             ZL            ZJ            TT            VV             
-rate                                                                     7.76318       85.4721       1124.16       550.773       246.104       12.805        9.63561       177.691       59.5557        
+rate                                                                     7.76271       86.3634       1107.83       550.173       246.065       12.805        39.0311       177.936       59.5557        
 ------------------------------------------------------------------------------- 
 lumi_8TeV lnN                                                            1.042         1.042         -             -             -             -             -             -             -              
 CMS_eff_m lnN                                                            1.01          1.01          1.010         -             -             1.010         1.010         1.010         1.010          
@@ -36,6 +36,7 @@ CMS_htt_QCDSyst_mutau_btag_8TeV lnN                                      -      
 CMS_htt_QCDShape_mutau_btag_8TeV shape                                   -             -             -             1.000         -             -             -             -             -              
 CMS_htt_ZJetFakeTau_mutau_btag_8TeV lnN                                  -             -             -             -             -             -             1.200         -             -              
 CMS_htt_ZLeptonFakeTau_mutau_8TeV lnN                                    -             -             -             -             -             1.300         -             -             -              
+CMS_htt_ZLScale_mutau_8TeV shape                                         -             -             -             -             -             1.000         -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_TT_bin_1 shape                                -             -             -             -             -             -             -             1.000         -              
 CMS_htt_mt_muTau_btag_8TeV_TT_bin_2 shape                                -             -             -             -             -             -             -             1.000         -              
 CMS_htt_mt_muTau_btag_8TeV_TT_bin_3 shape                                -             -             -             -             -             -             -             1.000         -              
@@ -55,7 +56,6 @@ CMS_htt_mt_muTau_btag_8TeV_QCD_bin_12 shape                              -      
 CMS_htt_mt_muTau_btag_8TeV_QCD_bin_13 shape                              -             -             -             1.000         -             -             -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_QCD_bin_14 shape                              -             -             -             1.000         -             -             -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_QCD_bin_15 shape                              -             -             -             1.000         -             -             -             -             -              
-CMS_htt_mt_muTau_btag_8TeV_ZTT_bin_1 shape                               -             -             1.000         -             -             -             -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_ZTT_bin_2 shape                               -             -             1.000         -             -             -             -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_ZTT_bin_3 shape                               -             -             1.000         -             -             -             -             -             -              
 CMS_htt_mt_muTau_btag_8TeV_ZTT_bin_7 shape                               -             -             1.000         -             -             -             -             -             -              
@@ -98,6 +98,8 @@ CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_11 shape                               -      
 CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_12 shape                               -             -             -             -             -             -             1.000         -             -              
 CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_13 shape                               -             -             -             -             -             -             1.000         -             -              
 CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_14 shape                               -             -             -             -             -             -             1.000         -             -              
+CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_15 shape                               -             -             -             -             -             -             1.000         -             -              
+CMS_htt_mt_muTau_btag_8TeV_ZJ_bin_16 shape                               -             -             -             -             -             -             1.000         -             -              
 CMS_htt_mt_muTau_btag_8TeV_VV_bin_1 shape                                -             -             -             -             -             -             -             -             1.000          
 CMS_htt_mt_muTau_btag_8TeV_VV_bin_2 shape                                -             -             -             -             -             -             -             -             1.000          
 CMS_htt_mt_muTau_btag_8TeV_VV_bin_3 shape                                -             -             -             -             -             -             -             -             1.000          
