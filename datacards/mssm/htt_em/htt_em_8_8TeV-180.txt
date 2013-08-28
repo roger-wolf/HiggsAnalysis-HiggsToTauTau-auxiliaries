@@ -7,12 +7,12 @@ shapes ggH * htt_em.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 shapes bbH * htt_em.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                                         emu_nobtag     
-observation                                                                 57154          
+observation                                                                 57285          
 ------------------------------------------------------------------------------- 
 bin                                                                         emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag     
 process                                                                     -1            0             1             2             3             4              
 process                                                                     ggH           bbH           Ztt           ttbar         EWK           Fakes          
-rate                                                                        204.795       172.217       46841.6       2321.65       2376.31       4193.97        
+rate                                                                        206.988       172.772       46894.3       2347.49       2387.93       4176.9         
 ------------------------------------------------------------------------------- 
 lumi_8TeV lnN                                                               1.042         1.042         -             -             1.042         -              
 CMS_eff_e lnN                                                               1.02          1.02          1.020         1.020         1.020         1.020          
@@ -57,11 +57,8 @@ CMS_htt_em_emu_nobtag_8TeV_EWK_bin_4 shape                                  -   
 CMS_htt_em_emu_nobtag_8TeV_EWK_bin_5 shape                                  -             -             -             -             1.000         -              
 CMS_htt_em_emu_nobtag_8TeV_EWK_bin_6 shape                                  -             -             -             -             1.000         -              
 CMS_htt_em_emu_nobtag_8TeV_EWK_bin_7 shape                                  -             -             -             -             1.000         -              
-CMS_htt_em_emu_nobtag_8TeV_EWK_bin_8 shape                                  -             -             -             -             1.000         -              
-CMS_htt_em_emu_nobtag_8TeV_EWK_bin_10 shape                                 -             -             -             -             1.000         -              
-CMS_htt_em_emu_nobtag_8TeV_EWK_bin_12 shape                                 -             -             -             -             1.000         -              
-CMS_htt_em_emu_nobtag_8TeV_EWK_bin_13 shape                                 -             -             -             -             1.000         -              
 CMS_htt_em_emu_nobtag_8TeV_EWK_bin_14 shape                                 -             -             -             -             1.000         -              
+CMS_htt_em_emu_nobtag_8TeV_EWK_bin_15 shape                                 -             -             -             -             1.000         -              
 CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_2 shape                                -             -             -             1.000         -             -              
 CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_3 shape                                -             -             -             1.000         -             -              
 CMS_htt_em_emu_nobtag_8TeV_ttbar_bin_4 shape                                -             -             -             1.000         -             -              
