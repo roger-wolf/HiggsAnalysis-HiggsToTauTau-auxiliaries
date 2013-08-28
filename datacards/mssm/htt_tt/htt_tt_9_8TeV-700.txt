@@ -1,0 +1,109 @@
+imax    1     number of categories 
+jmax    8     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_tt.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_tt.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes bbH * htt_tt.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                                                        tauTau_btag     
+observation                                                                381             
+------------------------------------------------------------------------------- 
+bin                                                                        tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag     
+process                                                                    -1             0              1              2              3              4              5              6              7               
+process                                                                    ggH            bbH            ZTT            ZJ             QCD            TT             W              VV             ZL              
+rate                                                                       11.4878        124.685        60.3941        2.11974        296.083        13.9689        16.4499        4.47358        0.175377        
+------------------------------------------------------------------------------- 
+lumi_8TeV lnN                                                              1.042          1.042          -              -              -              -              -              -              -               
+CMS_eff_t_tautau_8TeV lnN                                                  1.19           1.19           1.190          -              -              1.190          -              1.190          -               
+CMS_scale_t_tautau_8TeV shape                                                 1              1           1.000          -              -              -              -              -              -               
+CMS_shift1_tauTau_btag_8TeV_QCD_fine_binning shape                         -              -              -              -              1.000          -              -              -              -               
+CMS_shift2_tauTau_btag_8TeV_QCD_fine_binning shape                         -              -              -              -              1.000          -              -              -              -               
+CMS_scale_j_8TeV lnN                                                       1.05           1.06           -              -              -              1.010          -              1.030          -               
+CMS_eff_b_8TeV lnN                                                         1.09           1.09           -              -              -              1.090          -              1.090          -               
+CMS_fake_b_8TeV lnN                                                        1.02           1.02           -              -              -              1.020          -              1.020          -               
+CMS_htt_WNorm_tautau_btag_8TeV lnN                                         -              -              -              -              -              -              1.300          -              -               
+CMS_htt_QCDSyst_tautau_btag_8TeV lnN                                       -              -              -              -              1.350          -              -              -              -               
+CMS_htt_zttNorm_8TeV lnN                                                   -              -              1.033          1.033          -              -              -              -              1.033           
+CMS_htt_extrap_ztt_tautau_btag_8TeV lnN                                    -              -              1.030          -              -              -              -              -              -               
+CMS_htt_ttbarNorm_8TeV lnN                                                 -              -              -              -              -              1.100          -              -              -               
+CMS_htt_ttbarNorm_tautau_btag_8TeV lnN                                     -              -              -              -              -              1.050          -              -              -               
+CMS_htt_DiBosonNorm_8TeV lnN                                               -              -              -              -              -              -              -              1.150          -               
+CMS_htt_DiBosonNorm_tautau_btag_8TeV lnN                                   -              -              -              -              -              -              -              1.150          -               
+CMS_htt_ZJetFakeTau_tautau_btag_8TeV lnN                                   -              -              -              1.200          -              -              -              -              -               
+CMS_htt_ZLeptonFakeTau_tautau_btag_8TeV lnN                                -              -              -              -              -              -              -              -              1.200           
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_1 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_2 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_3 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_4 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_5 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_6 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_7 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_8 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_9 shape                                -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_10 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_11 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_12 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_13 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_14 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_15 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_16 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_17 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZTT_bin_18 shape                               -              -              1.000          -              -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_3 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_4 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_5 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_6 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_7 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_8 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_9 shape                                 -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_10 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_11 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_12 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_13 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_14 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_15 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_16 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_17 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_TT_bin_18 shape                                -              -              -              -              -              1.000          -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_2 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_3 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_4 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_5 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_6 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_7 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_8 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_9 shape                                -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_QCD_bin_10 shape                               -              -              -              -              1.000          -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_3 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_5 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_6 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_7 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_8 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_9 shape                                  -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_10 shape                                 -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_11 shape                                 -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_12 shape                                 -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_13 shape                                 -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_W_bin_15 shape                                 -              -              -              -              -              -              1.000          -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZL_bin_7 shape                                 -              -              -              -              -              -              -              -              1.000           
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_4 shape                                 -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_7 shape                                 -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_8 shape                                 -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_9 shape                                 -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_10 shape                                -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_11 shape                                -              -              -              1.000          -              -              -              -              -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_3 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_4 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_5 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_6 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_7 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_8 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_9 shape                                 -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_10 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_11 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_12 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_13 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_14 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_15 shape                                -              -              -              -              -              -              -              1.000          -               
+CMS_htt_tt_tauTau_btag_8TeV_VV_bin_16 shape                                -              -              -              -              -              -              -              1.000          -               
