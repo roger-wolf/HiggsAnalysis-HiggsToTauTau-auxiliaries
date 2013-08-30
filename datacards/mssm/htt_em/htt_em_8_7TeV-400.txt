@@ -7,12 +7,12 @@ shapes ggH * htt_em.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 shapes bbH * htt_em.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                                         emu_nobtag     
-observation                                                                 15427          
+observation                                                                 15436          
 ------------------------------------------------------------------------------- 
 bin                                                                         emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag     
 process                                                                     -1            0             1             2             3             4              
 process                                                                     ggH           bbH           Ztt           ttbar         EWK           Fakes          
-rate                                                                        115.767       96.2103       14173.8       491.881       581.92         654.4         
+rate                                                                        117.736       96.4859       14184.4       496.038       583.731        657.6         
 ------------------------------------------------------------------------------- 
 lumi_7TeV lnN                                                               1.022         1.022         -             -             1.022         -              
 CMS_eff_e lnN                                                               1.02          1.02          1.020         1.020         1.020         1.020          

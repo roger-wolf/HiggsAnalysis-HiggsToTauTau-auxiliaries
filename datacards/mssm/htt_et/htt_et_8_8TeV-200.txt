@@ -7,12 +7,12 @@ shapes ggH * htt_et.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 shapes bbH * htt_et.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                                          eleTau_nobtag     
-observation                                                                  54442             
+observation                                                                  54548             
 ------------------------------------------------------------------------------- 
 bin                                                                          eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag     
 process                                                                      -1               0                1                2                3                4                5                6                7                 
 process                                                                      ggH              bbH              ZTT              QCD              W                ZJ               ZL               TT               VV                
-rate                                                                         252.592          215.178           29880           10990.9          6267.76          1132.31          5129.23          301.075          227.624           
+rate                                                                         257.624          217.737          29767.7          11000.3          6300.37          1434.67            5131           303.476          230.518           
 ------------------------------------------------------------------------------- 
 lumi_8TeV lnN                                                                1.042            1.042            -                -                -                -                -                -                -                 
 CMS_eff_e lnN                                                                1.02             1.02             1.020            -                -                1.020            1.020            1.020            1.020             
@@ -36,6 +36,7 @@ CMS_htt_QCDSyst_etau_nobtag_8TeV lnN                                         -  
 CMS_htt_QCDShape_etau_nobtag_8TeV shape                                      -                -                -                1.000            -                -                -                -                -                 
 CMS_htt_ZJetFakeTau_etau_nobtag_8TeV lnN                                     -                -                -                -                -                1.200            -                -                -                 
 CMS_htt_ZLeptonFakeTau_etau_8TeV lnN                                         -                -                -                -                -                -                1.200            -                -                 
+CMS_htt_ZLScale_etau_8TeV shape                                              -                -                -                -                -                -                1.000            -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_TT_bin_2 shape                                 -                -                -                -                -                -                -                1.000            -                 
 CMS_htt_et_eleTau_nobtag_8TeV_TT_bin_3 shape                                 -                -                -                -                -                -                -                1.000            -                 
 CMS_htt_et_eleTau_nobtag_8TeV_TT_bin_4 shape                                 -                -                -                -                -                -                -                1.000            -                 
@@ -116,9 +117,6 @@ CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_4 shape                                 -  
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_5 shape                                 -                -                -                -                -                1.000            -                -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_6 shape                                 -                -                -                -                -                1.000            -                -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_7 shape                                 -                -                -                -                -                1.000            -                -                -                 
-CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_8 shape                                 -                -                -                -                -                1.000            -                -                -                 
-CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_9 shape                                 -                -                -                -                -                1.000            -                -                -                 
-CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_10 shape                                -                -                -                -                -                1.000            -                -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_11 shape                                -                -                -                -                -                1.000            -                -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_12 shape                                -                -                -                -                -                1.000            -                -                -                 
 CMS_htt_et_eleTau_nobtag_8TeV_ZJ_bin_13 shape                                -                -                -                -                -                1.000            -                -                -                 

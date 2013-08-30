@@ -12,7 +12,7 @@ observation                                                               558
 bin                                                                       emu_btag    emu_btag    emu_btag    emu_btag    emu_btag    emu_btag     
 process                                                                   -1          0           1           2           3           4            
 process                                                                   ggH         bbH         Ztt         ttbar       EWK         Fakes        
-rate                                                                      1.58555     22.4932     168.806     319.171     71.7717     15.6929      
+rate                                                                      1.58555     22.4932     168.806     319.171     71.7717     17.4087      
 ------------------------------------------------------------------------------- 
 lumi_7TeV lnN                                                             1.022       1.022       -           -           1.022       -            
 CMS_eff_e lnN                                                             1.02        1.02        1.020       1.020       1.020       1.020        

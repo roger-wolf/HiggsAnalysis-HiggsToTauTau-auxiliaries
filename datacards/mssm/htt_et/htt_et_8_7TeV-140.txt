@@ -7,12 +7,12 @@ shapes ggH * htt_et.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 shapes bbH * htt_et.inputs-mssm-7TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                                          eleTau_nobtag     
-observation                                                                  18755             
+observation                                                                  18785             
 ------------------------------------------------------------------------------- 
 bin                                                                          eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag    eleTau_nobtag     
 process                                                                      -1               0                1                2                3                4                5                6                7                 
 process                                                                      ggH              bbH              ZTT              QCD              W                ZJ               ZL               TT               VV                
-rate                                                                         57.1081          46.951           11777.5          3790.2           1407.58          265.557          1155.83          45.2061          53.0442           
+rate                                                                         57.5794          46.9873          11712.3          3789.71          1409.3           337.663          1155.83          45.5708          53.4102           
 ------------------------------------------------------------------------------- 
 lumi_7TeV lnN                                                                1.022            1.022            -                -                -                -                -                -                -                 
 CMS_eff_e lnN                                                                1.02             1.02             1.020            -                -                1.020            1.020            1.020            1.020             
@@ -33,6 +33,7 @@ CMS_htt_QCDSyst_etau_nobtag_7TeV lnN                                         -  
 CMS_htt_QCDShape_etau_nobtag_7TeV shape                                      -                -                -                1.000            -                -                -                -                -                 
 CMS_htt_ZJetFakeTau_etau_nobtag_7TeV lnN                                     -                -                -                -                -                1.200            -                -                -                 
 CMS_htt_ZLeptonFakeTau_etau_7TeV lnN                                         -                -                -                -                -                -                1.200            -                -                 
+CMS_htt_ZLScale_etau_7TeV shape                                              -                -                -                -                -                -                1.000            -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_TT_bin_2 shape                                 -                -                -                -                -                -                -                1.000            -                 
 CMS_htt_et_eleTau_nobtag_7TeV_TT_bin_3 shape                                 -                -                -                -                -                -                -                1.000            -                 
 CMS_htt_et_eleTau_nobtag_7TeV_TT_bin_4 shape                                 -                -                -                -                -                -                -                1.000            -                 
@@ -80,7 +81,6 @@ CMS_htt_et_eleTau_nobtag_7TeV_QCD_bin_18 shape                               -  
 CMS_htt_et_eleTau_nobtag_7TeV_QCD_bin_19 shape                               -                -                -                1.000            -                -                -                -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_QCD_bin_20 shape                               -                -                -                1.000            -                -                -                -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_ZTT_bin_2 shape                                -                -                1.000            -                -                -                -                -                -                 
-CMS_htt_et_eleTau_nobtag_7TeV_ZTT_bin_3 shape                                -                -                1.000            -                -                -                -                -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_ZTT_bin_4 shape                                -                -                1.000            -                -                -                -                -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_ZTT_bin_5 shape                                -                -                1.000            -                -                -                -                -                -                 
 CMS_htt_et_eleTau_nobtag_7TeV_ZTT_bin_15 shape                               -                -                1.000            -                -                -                -                -                -                 
