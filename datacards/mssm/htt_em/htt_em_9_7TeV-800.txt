@@ -12,7 +12,7 @@ observation                                                               558
 bin                                                                       emu_btag    emu_btag    emu_btag    emu_btag    emu_btag    emu_btag     
 process                                                                   -1          0           1           2           3           4            
 process                                                                   ggH         bbH         Ztt         ttbar       EWK         Fakes        
-rate                                                                      2.94572     28.1341     168.806     319.171     71.7717     17.4087      
+rate                                                                      2.94572     28.1341     168.806     334.711     71.7717     11.6645      
 ------------------------------------------------------------------------------- 
 lumi_7TeV lnN                                                             1.022       1.022       -           -           1.022       -            
 CMS_eff_e lnN                                                             1.02        1.02        1.020       1.020       1.020       1.020        
@@ -33,6 +33,8 @@ CMS_htt_DiBosonNorm_7TeV lnN                                              -     
 CMS_htt_fakes_em_7TeV lnN                                                 -           -           -           -           -           1.300        
 CMS_htt_fakes_em_btag_7TeV lnN                                            -           -           -           -           -           1.120        
 CMS_htt_ttbar_emb_7TeV lnN                                                -           -           -           1.020       -           -            
+CMS_htt_FakeShape_em_btag_7TeV shape                                      -           -           -           -           -           1.000        
+CMS_htt_TTbarShape_em_btag_7TeV shape                                     -           -           -           1.000       -           -            
 CMS_htt_em_emu_btag_7TeV_Fakes_bin_2 shape                                -           -           -           -           -           1.000        
 CMS_htt_em_emu_btag_7TeV_Fakes_bin_3 shape                                -           -           -           -           -           1.000        
 CMS_htt_em_emu_btag_7TeV_Fakes_bin_4 shape                                -           -           -           -           -           1.000        
@@ -58,6 +60,8 @@ CMS_htt_em_emu_btag_7TeV_EWK_bin_10 shape                                 -     
 CMS_htt_em_emu_btag_7TeV_ttbar_bin_1 shape                                -           -           -           1.000       -           -            
 CMS_htt_em_emu_btag_7TeV_ttbar_bin_2 shape                                -           -           -           1.000       -           -            
 CMS_htt_em_emu_btag_7TeV_ttbar_bin_3 shape                                -           -           -           1.000       -           -            
+CMS_htt_em_emu_btag_7TeV_ttbar_bin_4 shape                                -           -           -           1.000       -           -            
+CMS_htt_em_emu_btag_7TeV_ttbar_bin_5 shape                                -           -           -           1.000       -           -            
 CMS_htt_em_emu_btag_7TeV_Ztt_bin_2 shape                                  -           -           1.000       -           -           -            
 CMS_htt_em_emu_btag_7TeV_Ztt_bin_3 shape                                  -           -           1.000       -           -           -            
 CMS_htt_em_emu_btag_7TeV_Ztt_bin_7 shape                                  -           -           1.000       -           -           -            
