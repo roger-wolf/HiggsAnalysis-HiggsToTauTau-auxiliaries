@@ -12,7 +12,7 @@ observation                                                                975
 bin                                                                        eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag    eleTau_btag     
 process                                                                    -1             0              1              2              3              4              5              6              7               
 process                                                                    ggH            bbH            ZTT            QCD            W              ZL             ZJ             TT             VV              
-rate                                                                       5.43973        69.3816        446.515        192.223        129.788        61.2856        25.4097        93.2575        29.4784         
+rate                                                                       5.43973        69.3816        446.515        192.597        127.458        61.2856        25.4097        93.2575        29.4784         
 ------------------------------------------------------------------------------- 
 lumi_8TeV lnN                                                              1.042          1.042          -              -              -              -              -              -              -               
 CMS_eff_e lnN                                                              1.02           1.02           1.020          -              -              1.020          1.020          1.020          1.020           
@@ -39,6 +39,7 @@ CMS_htt_QCDShape_etau_btag_8TeV shape                                      -    
 CMS_htt_ZLeptonFakeTau_etau_8TeV lnN                                       -              -              -              -              -              1.200          -              -              -               
 CMS_htt_ZJetFakeTau_etau_btag_8TeV lnN                                     -              -              -              -              -              -              1.200          -              -               
 CMS_htt_ZLScale_etau_8TeV shape                                            -              -              -              -              -              1.000          -              -              -               
+CMS_htt_WShape_etau_btag_8TeV shape                                        -              -              -              -              1.000          -              -              -              -               
 CMS_htt_et_eleTau_btag_8TeV_TT_bin_1 shape                                 -              -              -              -              -              -              -              1.000          -               
 CMS_htt_et_eleTau_btag_8TeV_TT_bin_2 shape                                 -              -              -              -              -              -              -              1.000          -               
 CMS_htt_et_eleTau_btag_8TeV_TT_bin_3 shape                                 -              -              -              -              -              -              -              1.000          -               
