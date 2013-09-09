@@ -12,7 +12,7 @@ observation                                                                381
 bin                                                                        tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag     
 process                                                                    -1             0              1              2              3              4              5              6              7               
 process                                                                    ggH            bbH            ZTT            ZJ             QCD            TT             W              VV             ZL              
-rate                                                                       1.14189        9.92426        60.3941        2.11974        296.083        13.9689        16.4499        4.47358        0.175377        
+rate                                                                       1.14189        9.92426        51.6497        2.11974        296.083        13.9689        16.4499        4.47358        0.175377        
 ------------------------------------------------------------------------------- 
 lumi_8TeV lnN                                                              1.042          1.042          -              -              -              -              -              -              -               
 CMS_eff_t_tautau_8TeV lnN                                                  1.19           1.19           1.190          -              -              1.190          -              1.190          -               
