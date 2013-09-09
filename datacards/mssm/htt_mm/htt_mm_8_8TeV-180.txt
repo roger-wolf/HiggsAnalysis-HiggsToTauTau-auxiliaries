@@ -25,6 +25,7 @@ CMS_htt_mm_DiBosonNorm_8TeV lnN                      -              -           
 CMS_htt_mm_zmmNorm_8TeV lnN                          -              -              -              1.050          -              -              -              -               
 CMS_htt_mm_QCDNorm_nobtag_8TeV lnN                   -              -              -              -              1.100          -              -              -               
 CMS_htt_mm_WJetsNorm_nobtag_8TeV lnN                 -              -              -              -              -              -              1.220          -               
+CMS_htt_mm_res_met_8TeV shape                        -              -              -              1.000          -              -              -              -               
 CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_1 shape          -              -              -              -              1.000          -              -              -               
 CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_4 shape          -              -              -              -              1.000          -              -              -               
 CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_5 shape          -              -              -              -              1.000          -              -              -               
