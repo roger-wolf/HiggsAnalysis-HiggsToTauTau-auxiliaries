@@ -1,0 +1,36 @@
+imax    1     number of categories 
+jmax    8     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_ee.inputs-sm-7TeV.root $CHANNEL/$PROCESS 
+shapes ggH * htt_ee.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS 
+shapes qqH * htt_ee.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS 
+shapes VH * htt_ee.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS 
+------------------------------------------------------------------------------- 
+bin                                         ee_1jet_low     
+observation                                 10595           
+------------------------------------------------------------------------------- 
+bin                                         ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low     
+process                                     -2             -1             0              1              2              3              4              5              6               
+process                                     ggH            qqH            VH             ZTT            ZEE            QCD            TTJ            WJets          Dibosons        
+rate                                        1.80508        0.214968       0.00698625     421.182        9982.08            16         35.9607        7.31376        41.8978         
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                               1.022          1.022          1.022          -              -              -              -              1.022          1.022           
+CMS_eff_e lnN                               1.04           1.04           1.04           1.040          -              -              1.040          1.040          1.040           
+CMS_scale_j_7TeV lnN                        1.045          1.045          1.045          -              -              -              1.045          1.045          1.045           
+CMS_eff_b_7TeV lnN                          0.98           0.98           0.98           -              -              -              0.980          0.980          0.980           
+CMS_fake_b_7TeV lnN                         0.98           0.98           0.98           -              -              -              0.980          0.980          0.980           
+pdf_qqbar lnN                               -              1.08           -              -              -              -              -              -              -               
+pdf_gg lnN                                  1.08           -              -              -              -              -              -              -              -               
+pdf_vh lnN                                  -              -              1.01           -              -              -              -              -              -               
+QCDscale_ggH1in lnN                         1.17           -              -              -              -              -              -              -              -               
+QCDscale_qqH lnN                            -              1.035          -              -              -              -              -              -              -               
+QCDscale_VH lnN                             -              -              1.04           -              -              -              -              -              -               
+UEPS lnN                                    1.04           1.04           1.04           -              -              -              -              -              -               
+CMS_htt_zttNorm_7TeV lnN                    -              -              -              1.030          -              -              -              -              -               
+CMS_htt_ee_ztt_extrap_1jet_low_7TeV lnN     -              -              -              1.030          -              -              -              -              -               
+CMS_htt_ttbarNorm_7TeV lnN                  -              -              -              -              -              -              1.080          -              -               
+CMS_htt_ee_DiBosonNorm_7TeV lnN             -              -              -              -              -              -              -              -              1.300           
+CMS_htt_ee_ZEENorm_7TeV lnN                 -              -              -              -              1.040          -              -              -              -               
+CMS_htt_ee_ZEE_extrap_1jet_low_7TeV lnN     -              -              -              -              1.030          -              -              -              -               
+CMS_htt_ee_QCDNorm_1jet_low_7TeV lnN        -              -              -              -              -              1.350          -              -              -               

@@ -1,0 +1,52 @@
+imax    1     number of categories 
+jmax    8     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_mm.inputs-sm-8TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_mm.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes qqH * htt_mm.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes VH * htt_mm.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                          mumu_vbf     
+observation                                  164469       
+------------------------------------------------------------------------------- 
+bin                                          mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf    mumu_vbf     
+process                                      -2          -1          0           1           2           3           4           5           6            
+process                                      ggH         qqH         VH          ZTT         ZMM         QCD         TTJ         WJets       Dibosons     
+rate                                         6.25918     4.35747     2.64111     893.037     158945         254      2427.58          0      3524.43      
+------------------------------------------------------------------------------- 
+lumi_8TeV lnN                                1.042       1.042       1.042       -           -           -           -           1.042       1.042        
+CMS_eff_m lnN                                1.04        1.04        1.04        1.040       -           -           1.040       1.040       1.040        
+CMS_scale_j_8TeV shape                        0.5         0.5         0.5        -           -           -           0.500       -           0.500        
+CMS_htt_scale_met_8TeV lnN                   1.08        1.08        1.08        -           -           -           1.080       -           1.080        
+CMS_eff_b_8TeV lnN                           0.97        0.97        0.97        -           0.970       -           0.970       0.970       0.970        
+CMS_fake_b_8TeV lnN                          0.97        0.97        0.97        -           0.970       -           0.970       0.970       0.970        
+pdf_qqbar lnN                                -           1.08        -           -           -           -           -           -           -            
+pdf_gg lnN                                   1.08        -           -           -           -           -           -           -           -            
+pdf_vh lnN                                   -           -           1.04        -           -           -           -           -           -            
+QCDscale_ggH2in lnN                           1.5        -           -           -           -           -           -           -           -            
+QCDscale_qqH lnN                             -           1.04        -           -           -           -           -           -           -            
+QCDscale_VH lnN                              -           -           1.04        -           -           -           -           -           -            
+UEPS lnN                                     1.04        1.04        1.04        -           -           -           -           -           -            
+CMS_htt_zttNorm_8TeV lnN                     -           -           -           1.030       -           -           -           -           -            
+CMS_htt_ttbarNorm_8TeV lnN                   -           -           -           -           -           -           1.100       -           -            
+CMS_htt_mm_DiBosonNorm_8TeV lnN              -           -           -           -           -           -           -           -           1.300        
+CMS_htt_mm_zmmShape_vbf_8TeV shape           -           -           -           -           0.500       -           -           -           -            
+CMS_htt_mm_QCDNorm_vbf_8TeV lnN              -           -           -           -           -           1.700       -           -           -            
+CMS_htt_mm_zttLnN_vbf_8TeV lnN               -           -           -           1.110       -           -           -           -           -            
+CMS_htt_mm_WJetsNorm_vbf_8TeV lnN            -           -           -           -           -           -           -           2.000       -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZTT_bin_11 shape    -           -           -           1.000       -           -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZTT_bin_12 shape    -           -           -           1.000       -           -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_4 shape     -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_5 shape     -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_6 shape     -           -           -           -           1.000       -           -           -           -            
+CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_7 shape     -           -           -           -           1.000       -           -           -           -            
+CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_8 shape     -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_9 shape     -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_10 shape    -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_11 shape    -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_ZMM_bin_12 shape    -           -           -           -           1.000       -           -           -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_TTJ_bin_9 shape     -           -           -           -           -           -           1.000       -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_TTJ_bin_10 shape    -           -           -           -           -           -           1.000       -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_TTJ_bin_11 shape    -           -           -           -           -           -           1.000       -           -            
+#CMS_htt_mm_mumu_vbf_8TeV_TTJ_bin_12 shape    -           -           -           -           -           -           1.000       -           -            

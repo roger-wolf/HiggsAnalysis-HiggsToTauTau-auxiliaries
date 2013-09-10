@@ -1,0 +1,25 @@
+imax    1     number of categories 
+jmax    5     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_ee.inputs-sm-7TeV.root $CHANNEL/$PROCESS 
+------------------------------------------------------------------------------- 
+bin                                        ee_0jet_low     
+observation                                191415          
+------------------------------------------------------------------------------- 
+bin                                        ee_0jet_low    ee_0jet_low    ee_0jet_low    ee_0jet_low    ee_0jet_low    ee_0jet_low     
+process                                    1              2              3              4              5              6               
+process                                    ZTT            ZEE            QCD            TTJ            WJets          Dibosons        
+rate                                       3437.51        186749             60         3.67468        12.2224        74.3691         
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                              -              -              -              -              1.022          1.022           
+CMS_eff_e lnN                              1.040          -              -              1.040          1.040          1.040           
+CMS_scale_j_7TeV lnN                       -              -              -              0.960          0.960          0.960           
+CMS_eff_b_7TeV lnN                         -              -              -              0.990          0.990          0.990           
+CMS_fake_b_7TeV lnN                        -              -              -              0.990          0.990          0.990           
+CMS_htt_zttNorm_7TeV lnN                   1.030          -              -              -              -              -               
+CMS_htt_ttbarNorm_7TeV lnN                 -              -              -              1.080          -              -               
+CMS_htt_ee_DiBosonNorm_7TeV lnN            -              -              -              -              -              1.300           
+CMS_htt_ee_ZEENorm_7TeV lnN                -              1.040          -              -              -              -               
+CMS_htt_ee_ZEE_extrap_0jet_low_7TeV lnN    -              1.020          -              -              -              -               
+CMS_htt_ee_QCDNorm_0jet_low_7TeV lnN       -              -              1.190          -              -              -               

@@ -1,0 +1,37 @@
+imax    1     number of categories 
+jmax    8     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes qqH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes VH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                         emu_1jet_low     
+observation                                 2482             
+------------------------------------------------------------------------------- 
+bin                                         emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low    emu_1jet_low     
+process                                     -2              -1              0               1               2               3               4               5               6                
+process                                     ggH             qqH             VH              Ztt             ttbar           EWK             Fakes           ggH_hww125      qqH_hww125       
+rate                                        4.72999         0.827972        0.376334        2134.89         130.007         107.491         170.889         6.13634         1.00456          
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                               1.022           1.022           1.022           -               -               1.022           -               -               -                
+CMS_eff_e lnN                               1.02            1.02            1.02            1.020           1.020           1.020           1.020           1.020           1.020            
+CMS_scale_e_7TeV shape                         1               1               1            1.000           -               -               -               -               -                
+CMS_eff_m lnN                               1.02            1.02            1.02            1.020           1.020           1.020           1.020           1.020           1.020            
+CMS_scale_j_7TeV lnN                        1.05            -               -               -               1.050           1.050           -               1.050           -                
+CMS_htt_scale_met_7TeV lnN                  1.05            1.05            1.05            -               1.050           1.050           -               -               -                
+CMS_eff_b_7TeV lnN                          0.98            0.98            0.98            -               0.980           0.980           -               -               -                
+CMS_fake_b_7TeV lnN                         0.99            0.99            0.99            -               0.990           0.990           -               -               -                
+pdf_qqbar lnN                               -               1.03            1.02            -               -               -               -               -               1.030            
+pdf_gg lnN                                  1.08            -               -               -               -               -               -               1.080           -                
+QCDscale_ggH1in lnN                          1.1            -               -               -               -               -               -               1.100           -                
+QCDscale_qqH lnN                            -               1.04            -               -               -               -               -               -               1.040            
+QCDscale_VH lnN                             -               -               1.04            -               -               -               -               -               -                
+UEPS lnN                                    1.04            1.04            1.04            -               -               -               -               -               -                
+CMS_htt_zttNorm_7TeV lnN                    -               -               -               1.030           -               -               -               -               -                
+CMS_htt_extrap_ztt_emu_1jet_low_7TeV lnN    -               -               -               1.030           -               -               -               -               -                
+CMS_htt_ttbarNorm_7TeV lnN                  -               -               -               -               1.100           -               -               -               -                
+CMS_htt_DiBosonNorm_7TeV lnN                -               -               -               -               -               1.150           -               -               -                
+CMS_htt_fakes_em_7TeV lnN                   -               -               -               -               -               -               1.300           -               -                
+CMS_htt_fakes_em_1jet_low_7TeV lnN          -               -               -               -               -               -               1.110           -               -                
