@@ -1,0 +1,34 @@
+set0:
+ - no pruning in ee/mm
+ - shiedling 125:0.30 in et/mt/em/vhtt/tt
+ - common threshold 0.10
+ - -733 bbb's
+ 
+set1:
+ - no pruning in ee/mm
+ - no shielding on 0jet for et/mt
+ - common threshold 0.10
+ - -899 bbb's
+
+set2:
+ - no pruning in ee/mm
+ - no shielding on 0jet for et/mt, threshold increased to 0.15
+ - common threshold 0.10 for all others
+ - -936 bbb's
+
+set3:
+ - no pruning in ee/mm
+ - no shielding on 0jet for et/mt, threshold increased to 0.15
+ - no shielding for vhtt
+ - common threshold 0.10 for all others
+ - -1064 bbb's
+
+set4:
+ - no pruning in ee/mm
+ - no shielding on 0jet for et/mt, threshold increased to 0.15
+ - shielding reduced to 125:0.25 for 1jet and vbf in et/mt 
+ - no shielding for vhtt
+ - common threshold 0.10
+ - -1101 bbb's
+
+
