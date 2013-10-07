@@ -31,4 +31,11 @@ set4:
  - common threshold 0.10
  - -1101 bbb's
 
+set5: 
+ - no pruning in ee/mm
+ - shielding reduced to 125:0.25 for et/mt
+ - no shielding in vhtt
+ - common threshold 0.10
+ - -929
+
 
