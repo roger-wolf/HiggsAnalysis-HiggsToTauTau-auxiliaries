@@ -14,7 +14,7 @@ process                                              -1             0           
 process                                              ggH            bbH            ZTT            ZMM            QCD            TTJ            WJets          Dibosons        
 rate                                                 69.1043        55.5679        7116.76        559507            374         194.04         29.0566        1209.16         
 ------------------------------------------------------------------------------- 
-lumi_7TeV lnN                                        1.022          1.022          -              -              -              -              1.022          1.022           
+lumi_7TeV lnN                                        1.026          1.026          -              -              -              -              1.026          1.026           
 CMS_eff_m lnN                                        1.04           1.04           1.040          -              -              1.040          1.040          1.040           
 CMS_scale_j_7TeV lnN                                 1.02           1.02           -              -              -              0.990          0.990          0.990           
 CMS_eff_b_7TeV lnN                                   0.98           0.98           -              -              -              0.940          0.970          0.970           
@@ -32,7 +32,7 @@ CMS_htt_mm_res_met_7TeV shape                        -              -           
 #CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_4 shape          -              -              -              -              1.000          -              -              -               
 #CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_5 shape          -              -              -              -              1.000          -              -              -               
 CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_6 shape          -              -              -              -              1.000          -              -              -               
-CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_7 shape          -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_7 shape          -              -              -              -              1.000          -              -              -               
 CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_8 shape          -              -              -              -              1.000          -              -              -               
 #CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_10 shape         -              -              -              -              1.000          -              -              -               
 #CMS_htt_mm_mumu_nobtag_7TeV_QCD_bin_11 shape         -              -              -              -              1.000          -              -              -               
