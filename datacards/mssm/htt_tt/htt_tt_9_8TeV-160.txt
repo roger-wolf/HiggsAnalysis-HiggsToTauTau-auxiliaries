@@ -12,10 +12,11 @@ observation                                                                381
 bin                                                                        tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag    tauTau_btag     
 process                                                                    -1             0              1              2              3              4              5              6              7               
 process                                                                    ggH            bbH            ZTT            ZJ             QCD            TT             W              VV             ZL              
-rate                                                                       2.09209        22.0516        51.6497        2.11974        296.083        13.9689        16.4499        4.47358        0.175377        
+rate                                                                       2.0693         21.8497        51.6122        2.00666        296.149        13.8464        16.1861        4.47447        0.250678        
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                                              1.022          1.022          -              -              -              -              -              -              -               
+lumi_8TeV lnN                                                              1.026          1.026          -              -              -              -              -              -              -               
 CMS_eff_t_tautau_8TeV lnN                                                  1.19           1.19           1.190          -              -              1.190          -              1.190          -               
+CMS_eff_t_mssmHigh_tautau_8TeV shape                                          1              1           -              -              -              -              -              -              -               
 CMS_scale_t_tautau_8TeV shape                                                 1              1           1.000          -              -              -              -              -              -               
 CMS_shift1_tauTau_btag_8TeV_QCD_fine_binning shape                         -              -              -              -              1.000          -              -              -              -               
 CMS_shift2_tauTau_btag_8TeV_QCD_fine_binning shape                         -              -              -              -              1.000          -              -              -              -               
@@ -92,7 +93,7 @@ CMS_htt_tt_tauTau_btag_8TeV_W_bin_13 shape                                 -    
 #CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_8 shape                                 -              -              -              1.000          -              -              -              -              -               
 #CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_9 shape                                 -              -              -              1.000          -              -              -              -              -               
 #CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_10 shape                                -              -              -              1.000          -              -              -              -              -               
-CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_11 shape                                -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_tt_tauTau_btag_8TeV_ZJ_bin_11 shape                                -              -              -              1.000          -              -              -              -              -               
 #CMS_htt_tt_tauTau_btag_8TeV_VV_bin_3 shape                                 -              -              -              -              -              -              -              1.000          -               
 #CMS_htt_tt_tauTau_btag_8TeV_VV_bin_4 shape                                 -              -              -              -              -              -              -              1.000          -               
 #CMS_htt_tt_tauTau_btag_8TeV_VV_bin_5 shape                                 -              -              -              -              -              -              -              1.000          -               
