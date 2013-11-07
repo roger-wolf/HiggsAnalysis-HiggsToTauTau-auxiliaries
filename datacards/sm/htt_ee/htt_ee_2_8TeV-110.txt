@@ -1,36 +1,39 @@
 imax    1     number of categories 
-jmax    8     number of samples minus one 
+jmax    10     number of samples minus one 
 kmax    *     number of nuisance parameters 
 ------------------------------------------------------------------------------- 
-shapes * * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS 
-shapes ggH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS 
-shapes qqH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS 
-shapes VH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS 
+shapes * * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes qqH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes VH * htt_ee.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
-bin                                         ee_1jet_low     
-observation                                 26604           
+bin                                                      ee_1jet_low     
+observation                                              26604           
 ------------------------------------------------------------------------------- 
-bin                                         ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low     
-process                                     -2             -1             0              1              2              3              4              5              6               
-process                                     ggH            qqH            VH             ZTT            ZEE            QCD            TTJ            WJets          Dibosons        
-rate                                        7.0803         0.784561       0.772618       1173.29        24789.8         196.8         108.793        7.54118        152.007         
+bin                                                      ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low    ee_1jet_low     
+process                                                  -2             -1             0              1              2              3              4              5              6              7              8               
+process                                                  ggH            qqH            VH             ZTT            ZEE            QCD            TTJ            WJets          Dibosons       ggH_hww125     qqH_hww125      
+rate                                                     7.0803         0.784561       0.772618       1173.29        24789.8         196.8         108.793        7.54118        155.514        7.46833        1.04021         
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                               1.045          1.045          1.045          -              -              -              -              1.045          1.045           
-CMS_eff_e lnN                               1.06           1.06           1.06           1.060          -              -              1.060          1.060          1.060           
-CMS_scale_j_8TeV lnN                        1.045          1.045          1.045          -              -              -              1.045          1.045          1.045           
-CMS_eff_b_8TeV lnN                          0.98           0.98           0.98           -              -              -              0.980          0.980          0.980           
-CMS_fake_b_8TeV lnN                         0.98           0.98           0.98           -              -              -              0.980          0.980          0.980           
-pdf_qqbar lnN                               -              1.08           -              -              -              -              -              -              -               
-pdf_gg lnN                                  1.08           -              -              -              -              -              -              -              -               
-pdf_vh lnN                                  -              -              1.01           -              -              -              -              -              -               
-QCDscale_ggH1in lnN                         1.17           -              -              -              -              -              -              -              -               
-QCDscale_qqH lnN                            -              1.035          -              -              -              -              -              -              -               
-QCDscale_VH lnN                             -              -              1.04           -              -              -              -              -              -               
-UEPS lnN                                    1.04           1.04           1.04           -              -              -              -              -              -               
-CMS_htt_zttNorm_8TeV lnN                    -              -              -              1.030          -              -              -              -              -               
-CMS_htt_ee_ztt_extrap_1jet_low_8TeV lnN     -              -              -              1.040          -              -              -              -              -               
-CMS_htt_ttbarNorm_8TeV lnN                  -              -              -              -              -              -              1.100          -              -               
-CMS_htt_ee_DiBosonNorm_8TeV lnN             -              -              -              -              -              -              -              -              1.300           
-CMS_htt_ee_ZEENorm_8TeV lnN                 -              -              -              -              1.050          -              -              -              -               
-CMS_htt_ee_ZEE_extrap_1jet_low_8TeV lnN     -              -              -              -              1.040          -              -              -              -               
-CMS_htt_ee_QCDNorm_1jet_low_8TeV lnN        -              -              -              -              -              1.160          -              -              -               
+lumi_8TeV lnN                                            1.026          1.026          1.026          -              -              -              -              1.026          1.026          -              -               
+CMS_eff_e lnN                                            1.06           1.06           1.06           1.060          -              -              1.060          1.060          1.060          1.060          1.060           
+CMS_scale_e_8TeV shape                                    0.5            0.5            0.5           0.500          -              -              0.500          -              0.500          0.500          0.500           
+CMS_scale_j_8TeV shape                                    0.5            0.5            0.5           -              -              -              0.500          -              0.500          0.500          0.500           
+CMS_eff_b_8TeV lnN                                       0.98           0.98           0.98           -              -              -              0.980          0.980          0.980          0.980          0.980           
+CMS_fake_b_8TeV lnN                                      0.98           0.98           0.98           -              -              -              0.980          0.980          0.980          0.980          0.980           
+pdf_qqbar lnN                                            -              1.036          -              -              -              -              -              -              -              -              1.036           
+pdf_gg lnN                                               1.097          -              -              -              -              -              -              -              -              1.097          -               
+pdf_vh lnN                                               -              -              1.01           -              -              -              -              -              -              -              -               
+QCDscale_ggH1in lnN                                      1.109          -              -              -              -              -              -              -              -              1.109          -               
+QCDscale_qqH lnN                                         -              1.008          -              -              -              -              -              -              -              -              1.008           
+QCDscale_VH lnN                                          -              -              1.04           -              -              -              -              -              -              -              -               
+UEPS lnN                                                 0.984             1              1           -              -              -              -              -              -              0.984          1.000           
+CMS_htt_zttNorm_8TeV lnN                                 -              -              -              1.030          -              -              -              -              -              -              -               
+CMS_htt_ee_ztt_extrap_1jet_low_8TeV lnN                  -              -              -              1.070          -              -              -              -              -              -              -               
+CMS_htt_ttbarNorm_8TeV lnN                               -              -              -              -              -              -              1.100          -              -              -              -               
+CMS_htt_ee_DiBosonNorm_8TeV lnN                          -              -              -              -              -              -              -              -              1.300          -              -               
+CMS_htt_ee_zeeNorm_1jet_low_8TeV lnN                     -              -              -              -              1.010          -              -              -              -              -              -               
+CMS_htt_ee_QCDNorm_1jet_low_8TeV lnN                     -              -              -              -              -              1.160          -              -              -              -              -               
+CMS_htt_ee_zeeShape_1jet_low_mass0_8TeV shape            -              -              -              -              1.000          -              -              -              -              -              -               
+CMS_htt_ee_zeeShape_1jet_low_mass1_8TeV shape            -              -              -              -              1.000          -              -              -              -              -              -               
+CMS_htt_ee_zeeShape_1jet_low_mass2_8TeV shape            -              -              -              -              1.000          -              -              -              -              -              -               

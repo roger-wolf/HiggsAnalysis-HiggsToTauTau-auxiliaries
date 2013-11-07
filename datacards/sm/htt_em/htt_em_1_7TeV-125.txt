@@ -1,54 +1,59 @@
 imax    1     number of categories 
-jmax    5     number of samples minus one 
+jmax    8     number of samples minus one 
 kmax    *     number of nuisance parameters 
 ------------------------------------------------------------------------------- 
 shapes * * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes qqH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes VH * htt_em.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
 ------------------------------------------------------------------------------- 
 bin                                                 emu_0jet_high     
 observation                                         1676              
 ------------------------------------------------------------------------------- 
-bin                                                 emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high     
-process                                             1                2                3                4                5                6                 
-process                                             Ztt              ttbar            EWK              Fakes            ggH_hww125       qqH_hww125        
-rate                                                1224.04          14.6831          295.713          105.744          2.22123          0.0401134         
+bin                                                 emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high    emu_0jet_high     
+process                                             -2               -1               0                1                2                3                4                5                6                 
+process                                             ggH              qqH              VH               Ztt              ttbar            EWK              Fakes            ggH_hww125       qqH_hww125        
+rate                                                7.53774          0.0848166        0.133675         1224.04          15.8745          295.713          88.6391          2.22123          0.0401134         
 ------------------------------------------------------------------------------- 
-lumi_7TeV lnN                                       -                -                1.022            -                -                -                 
-CMS_eff_e lnN                                       1.020            1.020            1.020            1.020            1.020            1.020             
-CMS_scale_e_7TeV shape                              1.000            -                -                -                -                -                 
-CMS_eff_m lnN                                       1.020            1.020            1.020            1.020            1.020            1.020             
-CMS_scale_j_7TeV lnN                                -                0.990            0.990            -                0.980            0.900             
-CMS_htt_scale_met_7TeV lnN                          -                1.050            1.050            -                -                -                 
-CMS_eff_b_7TeV lnN                                  -                0.990            0.990            -                -                -                 
-CMS_fake_b_7TeV lnN                                 -                0.990            0.990            -                -                -                 
-pdf_qqbar lnN                                       -                -                -                -                -                1.030             
-pdf_gg lnN                                          -                -                -                -                1.080            -                 
-QCDscale_ggH lnN                                    -                -                -                -                1.080            -                 
-QCDscale_qqH lnN                                    -                -                -                -                -                1.035             
-CMS_htt_zttNorm_7TeV lnN                            1.030            -                -                -                -                -                 
-CMS_htt_extrap_ztt_emu_0jet_high_7TeV lnN           1.030            -                -                -                -                -                 
-CMS_htt_ttbarNorm_7TeV lnN                          -                1.080            -                -                -                -                 
-CMS_htt_DiBosonNorm_7TeV lnN                        -                -                1.150            -                -                -                 
-CMS_htt_fakes_em_7TeV lnN                           -                -                -                1.300            -                -                 
-CMS_htt_fakes_em_0jet_high_7TeV lnN                 -                -                -                1.100            -                -                 
-CMS_htt_FakeShape_em_0jet_high_7TeV shape           -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_6 shape     -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_7 shape     -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_8 shape     -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_9 shape     -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_10 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_11 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_12 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_13 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_14 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_15 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_16 shape    -                -                -                1.000            -                -                 
-CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_17 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_18 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_19 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_20 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_21 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_22 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_23 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_24 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_25 shape    -                -                -                1.000            -                -                 
-#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_26 shape    -                -                -                1.000            -                -                 
+lumi_7TeV lnN                                       1.026            1.026            1.026            -                -                1.026            -                -                -                 
+CMS_eff_e lnN                                       1.02             1.02             1.02             1.020            1.020            1.020            1.020            1.020            1.020             
+CMS_scale_e_highpt_7TeV shape                          1                1                1             1.000            -                -                -                -                -                 
+CMS_eff_m lnN                                       1.02             1.02             1.02             1.020            1.020            1.020            1.020            1.020            1.020             
+CMS_scale_j_7TeV lnN                                0.98              0.9             0.98             -                0.990            0.990            -                0.980            0.900             
+CMS_htt_scale_met_7TeV lnN                          1.05             1.05             1.05             -                1.050            1.050            -                -                -                 
+CMS_eff_b_7TeV lnN                                  0.99             0.99             0.99             -                0.990            0.990            -                -                -                 
+CMS_fake_b_7TeV lnN                                 0.99             0.99             0.99             -                0.990            0.990            -                -                -                 
+pdf_qqbar lnN                                       -                1.036            1.01             -                -                -                -                -                1.036             
+pdf_gg lnN                                          1.097            -                -                -                -                -                -                1.097            -                 
+QCDscale_ggH lnN                                    1.08             -                -                -                -                -                -                1.080            -                 
+QCDscale_qqH lnN                                    -                1.028            -                -                -                -                -                -                1.028             
+QCDscale_VH lnN                                     -                -                1.04             -                -                -                -                -                -                 
+UEPS lnN                                            1.042            1.063            1.063            -                -                -                -                1.042            1.063             
+CMS_htt_zttNorm_7TeV lnN                            -                -                -                1.030            -                -                -                -                -                 
+CMS_htt_extrap_ztt_emu_0jet_high_7TeV lnN           -                -                -                1.030            -                -                -                -                -                 
+CMS_htt_ttbarNorm_7TeV lnN                          -                -                -                -                1.080            -                -                -                -                 
+CMS_htt_DiBosonNorm_7TeV lnN                        -                -                -                -                -                1.150            -                -                -                 
+CMS_htt_fakes_em_7TeV lnN                           -                -                -                -                -                -                1.300            -                -                 
+CMS_htt_fakes_em_0jet_high_7TeV lnN                 -                -                -                -                -                -                1.100            -                -                 
+CMS_htt_FakeShape_em_0jet_high_7TeV shape           -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_6 shape     -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_7 shape     -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_8 shape     -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_9 shape     -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_10 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_11 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_12 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_13 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_14 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_15 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_16 shape    -                -                -                -                -                -                1.000            -                -                 
+CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_17 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_18 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_19 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_20 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_21 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_22 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_23 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_24 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_25 shape    -                -                -                -                -                -                1.000            -                -                 
+#CMS_htt_em_emu_0jet_high_7TeV_Fakes_bin_26 shape    -                -                -                -                -                -                1.000            -                -                 
