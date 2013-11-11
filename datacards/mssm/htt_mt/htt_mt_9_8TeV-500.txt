@@ -12,11 +12,12 @@ observation                                                              2219
 bin                                                                      muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag     
 process                                                                  -1            0             1             2             3             4             5             6             7              
 process                                                                  ggH           bbH           ZTT           QCD           W             ZL            ZJ            TT            VV             
-rate                                                                     7.29168       99.0208       1107.83       551.705       242.283       12.805        39.0311       177.936       59.5557        
+rate                                                                      7.265        98.5637       1102.68        551.3        239.509       12.967        38.8789       183.664       59.3544        
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                                            1.022         1.022         -             -             -             -             -             -             -              
+lumi_8TeV lnN                                                            1.026         1.026         -             -             -             -             -             -             -              
 CMS_eff_m lnN                                                            1.01          1.01          1.010         -             -             1.010         1.010         1.010         1.010          
 CMS_eff_t_mutau_8TeV lnN                                                 1.08          1.08          1.080         -             -             -             -             -             1.080          
+CMS_eff_t_mssmHigh_mutau_8TeV shape                                         1             1          -             -             -             -             -             -             -              
 CMS_scale_t_mutau_8TeV shape                                                1             1          1.000         -             -             -             -             -             -              
 CMS_shift1_muTau_btag_8TeV_TT_fine_binning shape                         -             -             -             -             -             -             -             1.000         -              
 CMS_shift2_muTau_btag_8TeV_TT_fine_binning shape                         -             -             -             -             -             -             -             1.000         -              

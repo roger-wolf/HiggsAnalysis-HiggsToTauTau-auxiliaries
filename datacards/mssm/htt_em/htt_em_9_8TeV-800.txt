@@ -12,9 +12,9 @@ observation                                                             2353
 bin                                                                     emu_btag    emu_btag    emu_btag    emu_btag    emu_btag    emu_btag     
 process                                                                 -1          0           1           2           3           4            
 process                                                                 ggH         bbH         Ztt         ttbar       EWK         Fakes        
-rate                                                                    8.37494     84.3242     659.544     1179.39     301.862     146.047      
+rate                                                                    8.33104     84.0482     656.977     1170.23     300.636     146.047      
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                                           1.022       1.022       -           -           1.022       -            
+lumi_8TeV lnN                                                           1.026       1.026       -           -           1.026       -            
 CMS_eff_e lnN                                                           1.02        1.02        1.020       1.020       1.020       1.020        
 CMS_scale_e_8TeV shape                                                     1           1        1.000       -           -           -            
 CMS_shift1_emu_btag_8TeV_EWK_fine_binning shape                         -           -           -           -           1.000       -            
@@ -41,7 +41,7 @@ CMS_htt_em_emu_btag_8TeV_Fakes_bin_1 shape                              -       
 #CMS_htt_em_emu_btag_8TeV_Fakes_bin_6 shape                              -           -           -           -           -           1.000        
 #CMS_htt_em_emu_btag_8TeV_Fakes_bin_7 shape                              -           -           -           -           -           1.000        
 CMS_htt_em_emu_btag_8TeV_Fakes_bin_8 shape                              -           -           -           -           -           1.000        
-#CMS_htt_em_emu_btag_8TeV_Fakes_bin_9 shape                              -           -           -           -           -           1.000        
+CMS_htt_em_emu_btag_8TeV_Fakes_bin_9 shape                              -           -           -           -           -           1.000        
 #CMS_htt_em_emu_btag_8TeV_Fakes_bin_10 shape                             -           -           -           -           -           1.000        
 #CMS_htt_em_emu_btag_8TeV_Fakes_bin_11 shape                             -           -           -           -           -           1.000        
 #CMS_htt_em_emu_btag_8TeV_Fakes_bin_12 shape                             -           -           -           -           -           1.000        

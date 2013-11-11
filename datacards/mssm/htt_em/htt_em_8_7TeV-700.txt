@@ -14,7 +14,7 @@ process                                                                   -1    
 process                                                                   ggH           bbH           Ztt           ttbar         EWK           Fakes          
 rate                                                                      153.034       117.112       14184.4       502.032       583.731       663.099        
 ------------------------------------------------------------------------------- 
-lumi_7TeV lnN                                                             1.022         1.022         -             -             1.022         -              
+lumi_7TeV lnN                                                             1.026         1.026         -             -             1.026         -              
 CMS_eff_e lnN                                                             1.02          1.02          1.020         1.020         1.020         1.020          
 CMS_scale_e_7TeV shape                                                       1             1          1.000         -             -             -              
 CMS_shift1_emu_nobtag_7TeV_EWK_fine_binning shape                         -             -             -             -             1.000         -              

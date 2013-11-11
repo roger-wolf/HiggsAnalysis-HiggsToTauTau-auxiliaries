@@ -12,9 +12,9 @@ observation                                          1922924
 bin                                                  mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag     
 process                                              -1             0              1              2              3              4              5              6               
 process                                              ggH            bbH            ZTT            ZMM            QCD            TTJ            WJets          Dibosons        
-rate                                                 157.649        145.019        19807.1        1.88885e+06      1152         846.038        118.062        4455.39         
+rate                                                 158.91         146.18         19965.5        1.88885e+06      1152         852.806        119.007        4491.03         
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                        1.022          1.022          -              -              -              -              1.022          1.022           
+lumi_8TeV lnN                                        1.026          1.026          -              -              -              -              1.026          1.026           
 CMS_eff_m lnN                                        1.06           1.06           1.060          -              -              1.060          1.060          1.060           
 CMS_scale_j_8TeV lnN                                 1.02           1.02           -              -              -              0.990          0.990          0.990           
 CMS_eff_b_8TeV lnN                                   0.98           0.98           -              -              -              0.940          0.970          0.970           

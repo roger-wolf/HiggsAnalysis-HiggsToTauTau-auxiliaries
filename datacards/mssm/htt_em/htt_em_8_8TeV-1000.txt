@@ -12,9 +12,9 @@ observation                                                               57285
 bin                                                                       emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag    emu_nobtag     
 process                                                                   -1            0             1             2             3             4              
 process                                                                   ggH           bbH           Ztt           ttbar         EWK           Fakes          
-rate                                                                      613.935       467.796       46894.3       2342.07       2387.93       4223.77        
+rate                                                                      611.808       466.06        46712.6       2324.02       2378.34       4223.77        
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                                             1.022         1.022         -             -             1.022         -              
+lumi_8TeV lnN                                                             1.026         1.026         -             -             1.026         -              
 CMS_eff_e lnN                                                             1.02          1.02          1.020         1.020         1.020         1.020          
 CMS_scale_e_8TeV shape                                                       1             1          1.000         -             -             -              
 CMS_shift1_emu_nobtag_8TeV_EWK_fine_binning shape                         -             -             -             -             1.000         -              

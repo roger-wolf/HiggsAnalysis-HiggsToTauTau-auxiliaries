@@ -12,11 +12,12 @@ observation                                      542
 bin                                              muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag    muTau_btag     
 process                                          -1            0             1             2             3             4             5             6             7              
 process                                          ggH           bbH           ZTT           QCD           W             ZL            ZJ            TT            VV             
-rate                                             3.86002       30.7962       277.743       133.887       51.1632       1.97468       9.18165       36.887        13.8415        
+rate                                             3.86002       30.7962       277.743       133.875       50.5672       1.97468       9.18165       38.0822       13.8415        
 ------------------------------------------------------------------------------- 
-lumi_7TeV lnN                                    1.022         1.022         -             -             -             -             -             -             -              
+lumi_7TeV lnN                                    1.026         1.026         -             -             -             -             -             -             -              
 CMS_eff_m lnN                                    1.02          1.02          1.020         -             -             1.020         1.020         1.020         1.020          
 CMS_eff_t_mutau_7TeV lnN                         1.08          1.08          1.080         -             -             -             -             -             1.080          
+CMS_eff_t_mssmHigh_mutau_7TeV shape                 1             1          -             -             -             -             -             -             -              
 CMS_scale_t_mutau_7TeV shape                        1             1          1.000         -             -             -             -             -             -              
 CMS_scale_j_7TeV lnN                             1.05          0.96          -             -             -             -             -             1.100         1.030          
 CMS_htt_scale_met_7TeV lnN                       1.05          1.05          -             -             -             -             -             1.070         1.070          
