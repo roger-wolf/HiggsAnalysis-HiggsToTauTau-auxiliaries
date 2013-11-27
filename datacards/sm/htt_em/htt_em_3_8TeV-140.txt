@@ -21,10 +21,10 @@ CMS_scale_e_highpt_8TeV shape                          1                1       
 CMS_eff_m lnN                                       1.02             1.02             1.02             1.020            1.020            1.020            1.020            1.020            1.020             
 CMS_scale_j_8TeV lnN                                1.02             0.99             1.01             -                1.020            0.990            -                1.020            0.990             
 CMS_htt_scale_met_8TeV lnN                          0.99             0.99             0.99             -                -                -                -                -                -                 
-CMS_eff_b_8TeV lnN                                  -                -                -                -                0.980            -                -                -                -                 
+CMS_eff_b_8TeV lnN                                  -                -                -                -                0.970            -                -                -                -                 
 pdf_qqbar lnN                                       -                1.036            1.02             -                -                -                -                -                1.036             
 pdf_gg lnN                                          1.097            -                -                -                -                -                -                1.097            -                 
-QCDscale_ggH1in shape                                  1             -                -                -                -                -                -                1.000            -                 
+QCDscale_ggH lnN                                    1.125            -                -                -                -                -                -                1.125            -                 
 QCDscale_qqH lnN                                    -                1.013            -                -                -                -                -                -                1.013             
 QCDscale_VH lnN                                     -                -                1.04             -                -                -                -                -                -                 
 UEPS lnN                                            0.978            -                -                -                -                -                -                0.978            -                 
