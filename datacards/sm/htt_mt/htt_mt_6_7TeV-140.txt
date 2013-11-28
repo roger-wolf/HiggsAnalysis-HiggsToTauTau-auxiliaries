@@ -43,13 +43,10 @@ CMS_htt_ZLeptonFakeTau_mutau_7TeV lnN            -            -            -    
 CMS_htt_ZJetFakeTau_mutau_vbf_7TeV lnN           -            -            -            -            -            -            -            1.700        -            -             
 CMS_htt_ZLScale_mutau_7TeV shape                 -            -            -            -            -            -            1.000        -            -            -             
 CMS_htt_ZLeptonFakeTau_mutau_vbf_7TeV lnN        -            -            -            -            -            -            2.000        -            -            -             
-CMS_htt_mt_muTau_vbf_7TeV_ZJ_bin_7 shape         -            -            -            -            -            -            -            1.000        -            -             
-CMS_htt_mt_muTau_vbf_7TeV_ZJ_bin_8 shape         -            -            -            -            -            -            -            1.000        -            -             
-CMS_htt_mt_muTau_vbf_7TeV_ZJ_bin_12 shape        -            -            -            -            -            -            -            1.000        -            -             
-#CMS_htt_mt_muTau_vbf_7TeV_QCD_bin_1 shape        -            -            -            -            1.000        -            -            -            -            -             
 #CMS_htt_mt_muTau_vbf_7TeV_W_bin_2 shape          -            -            -            -            -            1.000        -            -            -            -             
 CMS_htt_mt_muTau_vbf_7TeV_W_bin_7 shape          -            -            -            -            -            1.000        -            -            -            -             
 CMS_htt_mt_muTau_vbf_7TeV_W_bin_8 shape          -            -            -            -            -            1.000        -            -            -            -             
+#CMS_htt_mt_muTau_vbf_7TeV_W_bin_12 shape         -            -            -            -            -            1.000        -            -            -            -             
 #CMS_htt_mt_muTau_vbf_7TeV_W_bin_13 shape         -            -            -            -            -            1.000        -            -            -            -             
 #CMS_htt_mt_muTau_vbf_7TeV_ZTT_bin_3 shape        -            -            -            1.000        -            -            -            -            -            -             
 #CMS_htt_mt_muTau_vbf_7TeV_ZTT_bin_4 shape        -            -            -            1.000        -            -            -            -            -            -             

@@ -1,0 +1,35 @@
+imax    1     number of categories 
+jmax    4     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * vhtt.inputs-sm-7TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes WH * vhtt.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                        mmt           
+observation                                3             
+------------------------------------------------------------------------------- 
+bin                                        mmt          mmt          mmt          mmt          mmt           
+process                                    0            1            2            3            4             
+process                                    WH           wz           zz           fakes        WH_hww125     
+rate                                       0.392057     2.34576      0.423503     0.500914     0.0347498     
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                              1.022        1.022        1.022        -            1.022         
+CMS_trigger_m_7TeV lnN                     1.01         1.010        1.010        -            1.010         
+CMS_eff_m_7TeV lnN                         1.04         1.040        1.040        -            1.040         
+CMS_eff_t_mmt_7TeV lnN                     1.06         1.060        1.060        -            1.060         
+CMS_fake_b_7TeV lnN                        1.01         1.010        1.010        -            1.010         
+CMS_scale_t_mmt_7TeV lnN                   1.03         1.030        1.030        -            1.030         
+CMS_vhtt_mmt_fakes_7TeV lnN                -            -            -            1.300        -             
+pdf_qqbar lnN                              1.026        -            -            -            -             
+pdf_qqbar_wz lnN                           -            1.040        -            -            -             
+pdf_qqbar_zz lnN                           -            -            1.033        -            -             
+QCDscale_VH lnN                            1.009        -            -            -            -             
+QCDscale_VV_wz lnN                         -            1.040        -            -            -             
+QCDscale_VV_zz lnN                         -            -            1.023        -            -             
+CMS_vhtt_wzNorm_mmt_7TeV lnN               -            1.050        -            -            -             
+CMS_vhtt_zzNorm_mmt_7TeV lnN               -            -            1.060        -            -             
+CMS_vhtt_mmt_fakeshape_7TeV shape          -            -            -            1.000        -             
+#CMS_vhtt_mmt_7TeV_fakes_bin_1 shape        -            -            -            1.000        -             
+#CMS_vhtt_mmt_7TeV_fakes_bin_2 shape        -            -            -            1.000        -             
+CMS_vhtt_mmt_7TeV_fakes_bin_3 shape        -            -            -            1.000        -             
+CMS_vhtt_mmt_7TeV_fakes_bin_4 shape        -            -            -            1.000        -             

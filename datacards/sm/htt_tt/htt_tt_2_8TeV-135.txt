@@ -39,14 +39,14 @@ QCDscale_VH lnN                                  -             -             1.0
 UEPS lnN                                          0.9          -             -             -             -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_1 shape       -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_2 shape       -             -             -             1.000         -             -             -             -             -              
-CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_3 shape       -             -             -             1.000         -             -             -             -             -              
+#CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_3 shape       -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_4 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_6 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_7 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_8 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_9 shape       -             -             -             1.000         -             -             -             -             -              
-CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_10 shape      -             -             -             1.000         -             -             -             -             -              
-CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_11 shape      -             -             -             1.000         -             -             -             -             -              
+#CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_10 shape      -             -             -             1.000         -             -             -             -             -              
+#CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_11 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_12 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_13 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_QCD_bin_1 shape       -             -             -             -             -             1.000         -             -             -              

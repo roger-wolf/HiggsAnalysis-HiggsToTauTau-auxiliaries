@@ -41,8 +41,6 @@ CMS_htt_ee_QCDNorm_vbf_8TeV lnN                  -             -             -  
 CMS_htt_ee_zeeShape_vbf_mass0_8TeV shape         -             -             -             -             1.000         -             -             -             -             -             -              
 CMS_htt_ee_zeeShape_vbf_mass1_8TeV shape         -             -             -             -             1.000         -             -             -             -             -             -              
 CMS_htt_ee_zeeShape_vbf_mass2_8TeV shape         -             -             -             -             1.000         -             -             -             -             -             -              
-CMS_htt_ee_ee_vbf_8TeV_ZTT_bin_6 shape           -             -             -             1.000         -             -             -             -             -             -             -              
-CMS_htt_ee_ee_vbf_8TeV_ZTT_bin_8 shape           -             -             -             1.000         -             -             -             -             -             -             -              
 CMS_htt_ee_ee_vbf_8TeV_ZTT_bin_9 shape           -             -             -             1.000         -             -             -             -             -             -             -              
 CMS_htt_ee_ee_vbf_8TeV_ZEE_bin_1 shape           -             -             -             -             1.000         -             -             -             -             -             -              
 CMS_htt_ee_ee_vbf_8TeV_ZEE_bin_2 shape           -             -             -             -             1.000         -             -             -             -             -             -              
