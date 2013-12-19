@@ -1,0 +1,49 @@
+imax    1     number of categories 
+jmax    3     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * vhtt.inputs-sm-7TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes WH_htt * vhtt.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                            ett          
+observation                                    0            
+------------------------------------------------------------------------------- 
+bin                                            ett         ett         ett         ett          
+process                                        0           1           2           3            
+process                                        WH_htt      wz          zz          fakes        
+rate                                           0.302213    0.886035    0.202517    1.83448      
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                                  1.022       1.022       1.022       -            
+pdf_qqbar lnN                                  1.026       -           -           -            
+pdf_qqbar_wz lnN                               -           1.040       -           -            
+pdf_qqbar_zz lnN                               -           -           1.033       -            
+QCDscale_VH lnN                                1.009       -           -           -            
+QCDscale_VV_wz lnN                             -           1.040       -           -            
+QCDscale_VV_zz lnN                             -           -           1.023       -            
+CMS_trigger_e_7TeV lnN                         1.01        1.010       1.010       -            
+CMS_eff_e_7TeV lnN                             1.02        1.020       1.020       -            
+CMS_eff_t_ett_7TeV lnN                         1.14        1.140       1.140       -            
+CMS_scale_t_ett_7TeV shape                        1        1.000       1.000       -            
+CMS_scale_met_7TeV shape                          1        1.000       1.000       -            
+cms_vhtt_el_veto_7TeV lnN                      1.038       1.038       1.038       -            
+cms_vhtt_mu_veto_7TeV lnN                      1.007       1.007       1.007       -            
+CMS_vhtt_ett_fakes_norm_7TeV lnN               -           -           -           1.150        
+CMS_vhtt_ett_fakes_fit_7TeV shape              -           -           -           1.000        
+CMS_vhtt_wzNorm_ett_7TeV lnN                   -           1.070       -           -            
+CMS_vhtt_zzNorm_ett_7TeV lnN                   -           -           1.050       -            
+CMS_vhtt_signalNorm_ett_7TeV lnN               1.06        -           -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_2 shape               -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_3 shape               -           1.000       -           -            
+CMS_vhtt_ett_7TeV_wz_bin_5 shape               -           1.000       -           -            
+CMS_vhtt_ett_7TeV_wz_bin_6 shape               -           1.000       -           -            
+CMS_vhtt_ett_7TeV_wz_bin_7 shape               -           1.000       -           -            
+CMS_vhtt_ett_7TeV_wz_bin_8 shape               -           1.000       -           -            
+CMS_vhtt_ett_7TeV_wz_bin_9 shape               -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_10 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_11 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_12 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_13 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_14 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_16 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_17 shape              -           1.000       -           -            
+#CMS_vhtt_ett_7TeV_wz_bin_20 shape              -           1.000       -           -            

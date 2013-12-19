@@ -1,0 +1,59 @@
+imax    1     number of categories 
+jmax    9     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * htt_et.inputs-sm-7TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes ggH * htt_et.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes qqH * htt_et.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+shapes VH * htt_et.inputs-sm-7TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                              eleTau_vbf     
+observation                                      13             
+------------------------------------------------------------------------------- 
+bin                                              eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf    eleTau_vbf     
+process                                          -2            -1            0             1             2             3             4             5             6             7              
+process                                          ggH           qqH           VH            ZTT           QCD           W             ZL            ZJ            TT            VV             
+rate                                             0.26391       0.908034      1.51926e-08   9.25452       1.48695       1.55644            0        1.55494       0.274466      0.215857       
+------------------------------------------------------------------------------- 
+lumi_7TeV lnN                                    1.026         1.026         1.026         -             -             -             -             -             -             -              
+pdf_qqbar lnN                                    -             1.036         1.02          -             -             -             -             -             -             -              
+pdf_gg lnN                                       1.097         -             -             -             -             -             -             -             -             -              
+UEPS lnN                                          0.9          0.987         0.987         -             -             -             -             -             -             -              
+QCDscale_ggH2in lnN                              0.725         -             -             -             -             -             -             -             -             -              
+QCDscale_qqH lnN                                 -             0.981         -             -             -             -             -             -             -             -              
+QCDscale_VH lnN                                  -             -             1.04          -             -             -             -             -             -             -              
+CMS_eff_e lnN                                    1.02          1.02          1.02          1.020         -             -             1.020         1.020         1.020         1.020          
+CMS_eff_t_etau_7TeV lnN                          1.08          1.08          1.08          1.080         -             -             -             -             1.080         1.080          
+CMS_eff_t_etau_medium_7TeV lnN                   1.01          1.01          1.01          1.010         -             -             -             -             -             1.010          
+CMS_eff_t_etau_high_7TeV lnN                     1.012         1.012         1.012         1.012         -             -             -             -             -             1.012          
+CMS_scale_t_etau_7TeV shape                         1             1             1          1.000         -             -             -             -             -             -              
+CMS_scale_j_7TeV lnN                              1.2          1.07           1.2          -             -             -             -             -             1.100         1.250          
+CMS_eff_b_7TeV lnN                               -             -             -             -             -             -             -             -             0.940         0.850          
+CMS_htt_scale_met_7TeV lnN                       1.05          1.05          1.05          -             -             -             1.050         1.050         1.070         1.070          
+CMS_htt_zttNorm_7TeV lnN                         -             -             -             1.030         -             -             1.030         1.030         -             -              
+CMS_htt_ttbarNorm_7TeV lnN                       -             -             -             -             -             -             -             -             1.080         -              
+CMS_htt_ttbarNorm_etau_vbf_7TeV lnN              -             -             -             -             -             -             -             -             1.230         -              
+CMS_htt_DiBosonNorm_7TeV lnN                     -             -             -             -             -             -             -             -             -             1.150          
+CMS_htt_DiBosonNorm_etau_vbf_7TeV lnN            -             -             -             -             -             -             -             -             -             1.400          
+CMS_htt_WNorm_etau_vbf_7TeV lnN                  -             -             -             -             -             1.500         -             -             -             -              
+CMS_htt_extrap_ztt_etau_vbf_7TeV lnN             -             -             -             1.100         -             -             1.100         -             -             -              
+CMS_htt_QCDSyst_etau_vbf_7TeV lnN                -             -             -             -             1.400         -             -             -             -             -              
+CMS_htt_QCDShape_etau_vbf_7TeV shape             -             -             -             -             1.000         -             -             -             -             -              
+CMS_htt_ZLeptonFakeTau_etau_low_7TeV lnN         -             -             -             -             -             -             1.060         -             -             -              
+CMS_htt_ZLeptonFakeTau_etau_medium_7TeV lnN      -             -             -             -             -             -             1.080         -             -             -              
+CMS_htt_ZLeptonFakeTau_etau_high_7TeV lnN        -             -             -             -             -             -             1.060         -             -             -              
+CMS_htt_ZJetFakeTau_etau_vbf_7TeV lnN            -             -             -             -             -             -             -             1.560         -             -              
+CMS_htt_ZLScale_etau_7TeV shape                  -             -             -             -             -             -             1.000         -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZJ_bin_6 shape        -             -             -             -             -             -             -             1.000         -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZJ_bin_9 shape        -             -             -             -             -             -             -             1.000         -             -              
+#CMS_htt_et_eleTau_vbf_7TeV_ZJ_bin_10 shape       -             -             -             -             -             -             -             1.000         -             -              
+#CMS_htt_et_eleTau_vbf_7TeV_ZJ_bin_12 shape       -             -             -             -             -             -             -             1.000         -             -              
+#CMS_htt_et_eleTau_vbf_7TeV_ZJ_bin_13 shape       -             -             -             -             -             -             -             1.000         -             -              
+#CMS_htt_et_eleTau_vbf_7TeV_W_bin_2 shape         -             -             -             -             -             1.000         -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_W_bin_8 shape         -             -             -             -             -             1.000         -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_3 shape       -             -             -             1.000         -             -             -             -             -             -              
+#CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_4 shape       -             -             -             1.000         -             -             -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_5 shape       -             -             -             1.000         -             -             -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_7 shape       -             -             -             1.000         -             -             -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_8 shape       -             -             -             1.000         -             -             -             -             -             -              
+CMS_htt_et_eleTau_vbf_7TeV_ZTT_bin_11 shape      -             -             -             1.000         -             -             -             -             -             -              

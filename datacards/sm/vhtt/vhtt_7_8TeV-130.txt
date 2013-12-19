@@ -1,0 +1,49 @@
+imax    1     number of categories 
+jmax    3     number of samples minus one 
+kmax    *     number of nuisance parameters 
+------------------------------------------------------------------------------- 
+shapes * * vhtt.inputs-sm-8TeV.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
+shapes WH_htt * vhtt.inputs-sm-8TeV.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PROCESS$MASS_$SYSTEMATIC 
+------------------------------------------------------------------------------- 
+bin                                            mtt          
+observation                                    38           
+------------------------------------------------------------------------------- 
+bin                                            mtt         mtt         mtt         mtt          
+process                                        0           1           2           3            
+process                                        WH_htt      wz          zz          fakes        
+rate                                           1.33013     8.33105     0.598905    25.1659      
+------------------------------------------------------------------------------- 
+lumi_8TeV lnN                                  1.026       1.026       1.026       -            
+pdf_qqbar lnN                                  1.023       -           -           -            
+pdf_qqbar_wz lnN                               -           1.040       -           -            
+pdf_qqbar_zz lnN                               -           -           1.033       -            
+QCDscale_VH lnN                                1.01        -           -           -            
+QCDscale_VV_wz lnN                             -           1.040       -           -            
+QCDscale_VV_zz lnN                             -           -           1.023       -            
+CMS_trigger_m_8TeV lnN                         1.01        1.010       1.010       -            
+CMS_eff_m_8TeV lnN                             1.02        1.020       1.020       -            
+CMS_eff_t_mtt_8TeV lnN                         1.12        1.120       1.120       -            
+CMS_scale_t_mtt_8TeV shape                        1        1.000       1.000       -            
+CMS_scale_met_8TeV shape                          1        1.000       1.000       -            
+cms_vhtt_el_veto_8TeV lnN                      1.038       1.038       1.038       -            
+cms_vhtt_mu_veto_8TeV lnN                      1.007       1.007       1.007       -            
+CMS_vhtt_mtt_fakes_norm_8TeV lnN               -           -           -           1.150        
+CMS_vhtt_mtt_fakes_fit_8TeV shape              -           -           -           1.000        
+CMS_vhtt_wzNorm_mtt_8TeV lnN                   -           1.040       -           -            
+CMS_vhtt_zzNorm_mtt_8TeV lnN                   -           -           1.040       -            
+CMS_vhtt_signalNorm_mtt_8TeV lnN               1.05        -           -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_2 shape               -           1.000       -           -            
+CMS_vhtt_mtt_8TeV_wz_bin_6 shape               -           1.000       -           -            
+CMS_vhtt_mtt_8TeV_wz_bin_7 shape               -           1.000       -           -            
+CMS_vhtt_mtt_8TeV_wz_bin_8 shape               -           1.000       -           -            
+CMS_vhtt_mtt_8TeV_wz_bin_9 shape               -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_10 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_11 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_12 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_13 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_14 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_15 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_16 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_17 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_19 shape              -           1.000       -           -            
+#CMS_vhtt_mtt_8TeV_wz_bin_20 shape              -           1.000       -           -            

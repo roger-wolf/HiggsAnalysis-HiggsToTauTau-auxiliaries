@@ -29,8 +29,8 @@ CMS_htt_ttbarNorm_tautau_vbf_8TeV lnN            -             -             -  
 CMS_htt_DiBosonNorm_8TeV lnN                     -             -             -             -             -             -             -             -             1.150          
 CMS_htt_DiBosonNorm_tautau_vbf_8TeV lnN          -             -             -             -             -             -             -             -             1.130          
 CMS_htt_ZJetFakeTau_tautau_vbf_8TeV lnN          -             -             -             -             1.200         -             -             -             -              
-CMS_eff_b_8TeV lnN                               -             -             -             -             -             -             0.925         -             0.990          
-CMS_fake_b_8TeV lnN                              0.99          0.99          0.99          -             0.990         -             0.960         -             0.990          
+CMS_eff_b_8TeV lnN                               -             -             -             -             -             -             0.930         -             -              
+CMS_fake_b_8TeV lnN                              -             -             -             -             -             -             0.960         -             -              
 pdf_gg lnN                                       1.097         -             -             -             -             -             -             -             -              
 pdf_qqbar lnN                                    -             1.036         1.02          -             -             -             -             -             -              
 QCDscale_ggH2in lnN                              0.59          -             -             -             -             -             -             -             -              
@@ -45,10 +45,8 @@ CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_6 shape       -             -             -  
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_7 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_8 shape       -             -             -             1.000         -             -             -             -             -              
 CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_9 shape       -             -             -             1.000         -             -             -             -             -              
-CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_10 shape      -             -             -             1.000         -             -             -             -             -              
+#CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_10 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_11 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_12 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_ZTT_bin_13 shape      -             -             -             1.000         -             -             -             -             -              
 #CMS_htt_tt_tauTau_vbf_8TeV_QCD_bin_1 shape       -             -             -             -             -             1.000         -             -             -              
-#CMS_htt_tt_tauTau_vbf_8TeV_QCD_bin_2 shape       -             -             -             -             -             1.000         -             -             -              
-#CMS_htt_tt_tauTau_vbf_8TeV_QCD_bin_13 shape      -             -             -             -             -             1.000         -             -             -              
