@@ -1,4 +1,5 @@
-Italian group\n
-INFN Pisa, Bari, Milano Bicocca\n
-Universita' Milano Bicocca, Bari, Siena\n
+Italian group  
+
+INFN Pisa, Bari, Milano Bicocca  
+Universita' Milano Bicocca, Bari, Siena  
 
