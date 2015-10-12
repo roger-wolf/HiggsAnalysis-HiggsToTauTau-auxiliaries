@@ -1,5 +1,5 @@
 imax    1     number of categories 
-jmax    7     number of samples minus one 
+jmax    10     number of samples minus one 
 kmax    *     number of nuisance parameters 
 ------------------------------------------------------------------------------- 
 shapes * * htt_mm.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS $CHANNEL/$PROCESS_$SYSTEMATIC 
@@ -9,149 +9,157 @@ shapes bbH * htt_mm.inputs-mssm-8TeV-0.root $CHANNEL/$PROCESS$MASS $CHANNEL/$PRO
 bin                                                  mumu_nobtag     
 observation                                          1922924         
 ------------------------------------------------------------------------------- 
-bin                                                  mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag     
-process                                              -1             0              1              2              3              4              5              6               
-process                                              ggH            bbH            ZTT            ZMM            QCD            TTJ            WJets          Dibosons        
-rate                                                 29.9043        31.6967        19965.5        1.88885e+06      1152         852.806        119.007        4491.03         
+bin                                                  mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag    mumu_nobtag     
+process	-1	0	1	2	3	4	5	6	-2	-3	-4
+process	ggH	bbH	ZTT	ZMM	QCD	TTJ	WJets	Dibosons	ggH_SM125	qqH_SM125	VH_SM125
+rate                                                 29.9043        31.6967        19965.5        1.88885e+06      1152         852.806        119.007        4491.03        64.9395        2.51487        4.76956         
 ------------------------------------------------------------------------------- 
-lumi_8TeV lnN                                        1.026          1.026          -              -              -              -              1.026          1.026           
-CMS_eff_m lnN                                        1.06           1.06           1.060          -              -              1.060          1.060          1.060           
-CMS_scale_j_8TeV lnN                                 1.02           1.02           -              -              -              0.990          0.990          0.990           
-CMS_eff_b_8TeV lnN                                   0.98           0.98           -              -              -              0.940          0.970          0.970           
-CMS_fake_b_8TeV lnN                                  0.98           0.98           -              -              -              0.980          0.980          0.980           
-CMS_htt_zttNorm_8TeV lnN                             -              -              1.050          -              -              -              -              -               
-CMS_htt_ttbarNorm_8TeV lnN                           -              -              -              -              -              1.100          -              -               
-CMS_htt_mm_DiBosonNorm_8TeV lnN                      -              -              -              -              -              -              -              1.300           
-CMS_htt_mm_zmmNorm_8TeV lnN                          -              -              -              1.050          -              -              -              -               
-CMS_htt_mm_QCDNorm_nobtag_8TeV lnN                   -              -              -              -              1.100          -              -              -               
-CMS_htt_mm_WJetsNorm_nobtag_8TeV lnN                 -              -              -              -              -              -              1.220          -               
-CMS_htt_mm_res_met_8TeV shape                        -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_1 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_4 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_5 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_6 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_7 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_8 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_9 shape          -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_10 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_12 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_13 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_14 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_15 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_16 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_17 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_18 shape         -              -              -              -              1.000          -              -              -               
-CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_19 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_20 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_21 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_22 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_23 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_24 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_25 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_26 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_27 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_28 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_29 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_30 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_31 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_32 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_33 shape         -              -              -              -              1.000          -              -              -               
-CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_34 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_35 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_36 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_37 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_39 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_40 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_41 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_42 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_43 shape         -              -              -              -              1.000          -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_1 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_3 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_5 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_6 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_7 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_8 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_9 shape          -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_10 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_11 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_12 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_13 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_15 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_16 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_17 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_18 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_19 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_20 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_21 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_22 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_27 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_28 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_29 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_33 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_34 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_35 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_38 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_39 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_41 shape         -              -              -              -              -              1.000          -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_2 shape          -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_3 shape          -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_10 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_11 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_18 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_19 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_20 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_21 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_26 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_27 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_28 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_29 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_33 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_34 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_35 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_36 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_38 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_39 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_41 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_42 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_43 shape         -              -              1.000          -              -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_7 shape          -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_8 shape          -              -              -              1.000          -              -              -              -               
-CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_9 shape          -              -              -              1.000          -              -              -              -               
-CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_10 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_17 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_18 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_20 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_27 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_28 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_35 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_39 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_41 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_43 shape         -              -              -              1.000          -              -              -              -               
-#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_4 shape        -              -              -              -              -              -              1.000          -               
-CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_5 shape        -              -              -              -              -              -              1.000          -               
-#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_6 shape        -              -              -              -              -              -              1.000          -               
-#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_14 shape       -              -              -              -              -              -              1.000          -               
-CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_20 shape       -              -              -              -              -              -              1.000          -               
-#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_22 shape       -              -              -              -              -              -              1.000          -               
-CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_25 shape       -              -              -              -              -              -              1.000          -               
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_1 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_5 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_6 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_7 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_8 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_9 shape     -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_10 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_11 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_16 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_17 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_18 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_19 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_20 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_27 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_28 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_33 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_34 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_35 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_38 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_39 shape    -              -              -              -              -              -              -              1.000           
-#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_41 shape    -              -              -              -              -              -              -              1.000           
+lumi_8TeV lnN                                        1.026          1.026          -              -              -              -              1.026          1.026          1.026          1.026          1.026           
+CMS_eff_m lnN                                        1.06           1.06           1.060          -              -              1.060          1.060          1.060          1.060          1.060          1.060           
+CMS_scale_j_8TeV lnN                                 1.02           1.02           -              -              -              0.990          0.990          0.990          1.020          1.020          1.020           
+CMS_eff_b_8TeV lnN                                   0.98           0.98           -              -              -              0.940          0.970          0.970          0.980          0.980          0.980           
+CMS_fake_b_8TeV lnN                                  0.98           0.98           -              -              -              0.980          0.980          0.980          0.980          0.980          0.980           
+CMS_htt_zttNorm_8TeV lnN                             -              -              1.050          -              -              -              -              -              -              -              -               
+CMS_htt_ttbarNorm_8TeV lnN                           -              -              -              -              -              1.100          -              -              -              -              -               
+CMS_htt_mm_DiBosonNorm_8TeV lnN                      -              -              -              -              -              -              -              1.300          -              -              -               
+CMS_htt_mm_zmmNorm_8TeV lnN                          -              -              -              1.050          -              -              -              -              -              -              -               
+CMS_htt_mm_QCDNorm_nobtag_8TeV lnN                   -              -              -              -              1.100          -              -              -              -              -              -               
+CMS_htt_mm_WJetsNorm_nobtag_8TeV lnN                 -              -              -              -              -              -              1.220          -              -              -              -               
+CMS_htt_mm_res_met_8TeV shape                        -              -              -              1.000          -              -              -              -              -              -              -               
+CMS_htt_SM125_mu lnN                                 -              -              -              -              -              -              -              -              1.300          1.300          1.300           
+pdf_qqbar lnN                                        -              -              -              -              -              -              -              -              -              1.036          -               
+pdf_gg lnN                                           -              -              -              -              -              -              -              -              1.097          -              -               
+pdf_vh lnN                                           -              -              -              -              -              -              -              -              -              -              1.010           
+QCDscale_ggH lnN                                     -              -              -              -              -              -              -              -              1.103          -              -               
+QCDscale_qqH lnN                                     -              -              -              -              -              -              -              -              -              1.034          -               
+QCDscale_VH lnN                                      -              -              -              -              -              -              -              -              -              -              1.040           
+UEPS lnN                                             -              -              -              -              -              -              -              -              1.035          1.089          1.089           
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_1 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_4 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_5 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_6 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_7 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_8 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_9 shape          -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_10 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_12 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_13 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_14 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_15 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_16 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_17 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_18 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_19 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_20 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_21 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_22 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_23 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_24 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_25 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_26 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_27 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_28 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_29 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_30 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_31 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_32 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_33 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_34 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_35 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_36 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_37 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_39 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_40 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_41 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_42 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_QCD_bin_43 shape         -              -              -              -              1.000          -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_1 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_3 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_5 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_6 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_7 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_8 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_9 shape          -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_10 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_11 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_12 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_13 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_15 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_16 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_17 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_18 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_19 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_20 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_21 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_22 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_27 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_28 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_29 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_33 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_34 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_35 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_38 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_39 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_TTJ_bin_41 shape         -              -              -              -              -              1.000          -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_2 shape          -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_3 shape          -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_10 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_11 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_18 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_19 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_20 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_21 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_26 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_27 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_28 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_29 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_33 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_34 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_35 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_36 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_38 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_39 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_41 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_42 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZTT_bin_43 shape         -              -              1.000          -              -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_7 shape          -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_8 shape          -              -              -              1.000          -              -              -              -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_9 shape          -              -              -              1.000          -              -              -              -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_10 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_17 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_18 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_20 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_27 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_28 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_35 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_39 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_41 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_ZMM_bin_43 shape         -              -              -              1.000          -              -              -              -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_4 shape        -              -              -              -              -              -              1.000          -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_5 shape        -              -              -              -              -              -              1.000          -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_6 shape        -              -              -              -              -              -              1.000          -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_14 shape       -              -              -              -              -              -              1.000          -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_20 shape       -              -              -              -              -              -              1.000          -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_22 shape       -              -              -              -              -              -              1.000          -              -              -              -               
+CMS_htt_mm_mumu_nobtag_8TeV_WJets_bin_25 shape       -              -              -              -              -              -              1.000          -              -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_1 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_5 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_6 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_7 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_8 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_9 shape     -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_10 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_11 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_16 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_17 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_18 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_19 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_20 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_27 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_28 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_33 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_34 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_35 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_38 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_39 shape    -              -              -              -              -              -              -              1.000          -              -              -               
+#CMS_htt_mm_mumu_nobtag_8TeV_Dibosons_bin_41 shape    -              -              -              -              -              -              -              1.000          -              -              -               
